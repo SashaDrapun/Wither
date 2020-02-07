@@ -153,6 +153,52 @@ body{
 
 /* slider */
 
+.series-1{
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%),
+     url('../img/series/series1.jpg');
+}
+
+.series-2{
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%),
+     url('../img/series/series2.jpg');
+}
+
+.series-3{
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%),
+     url('../img/series/series3.jpg');
+}
+
+.series-4{
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%),
+     url('../img/series/series4.jpg');
+}
+
+.series-5{
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%),
+     url('../img/series/series5.jpg');
+}
+
+.series-6{
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%),
+     url('../img/series/series6.jpg');
+}
+
+.series-7{
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%),
+     url('../img/series/series7.jpg');
+}
+
+.series-8{
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%),
+     url('../img/series/series8.jpg');
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .card{
     width: 164px;
     height: 113px;
@@ -162,6 +208,10 @@ body{
     justify-content: flex-end;
     padding: 12px;
     margin-right: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
 
 .card-subtitle{
@@ -182,22 +232,6 @@ body{
     position: relative;
     margin-bottom: 60px;
     max-width: 500px;
-}
-
-.series-1{
-    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%),
-     url('../img/series/series1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.series-2{
-    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%),
-     url('../img/series/series2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
 }
 
 .arrow{
